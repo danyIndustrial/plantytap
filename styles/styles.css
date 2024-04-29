@@ -24,6 +24,11 @@ body {
   padding: 0px 10px;
   align-items: center;
 }
+
+.bg-custom-green {
+  background-color: #627254 !important;
+}
+
 .nav-green {
   display: flex;
   background-color: #627254;
@@ -97,6 +102,15 @@ body {
 }
 
 /* -------------------- */
+
+.nav-bar-line {
+  padding: 10px !important;
+  border-radius: 0% !important;
+}
+
+.margin-big {
+  margin-top: 150px !important;
+}
 
 img {
   max-width: 100%;
