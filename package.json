@@ -1,14 +1,21 @@
 {
   "name": "plantytap",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "sass src/styles/styles.scss css/styles.css",
+      "watch": "sass src/styles/styles.scss css/styles.css --watch",
+      "start": "src/pages/index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.4.1"
-  }
+  },
+  "devDependencies": {
+    "sass": "^1.77.2"
+  },
+  "keywords": [],
+  "description": ""
 }
